@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações sobre Empresas e Currículos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8e3f6;
+            color: #333;
+        }
+        header {
+            background-color: #d5006d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #d5006d;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            background: white;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #d5006d;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .search-bar {
+            margin: 20px 0;
+        }
+        .search-bar input {
+            padding: 10px;
+            width: 80%;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .search-bar button {
+            padding: 10px;
+            background-color: #d5006d;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .search-bar button:hover {
+            background-color: #a0004d;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 15px;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .icon {
+            width: 30px;
+            height: 30px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        .contacts {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: auto;
+        }
+        .contact-form input, .contact-form textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            padding: 10px;
+            background-color: #d5006d;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Informações sobre Empresas e Currículos</h1>
+</header>
+
+<nav>
+    <a href="#empresas">Empresas</a>
+    <a href="#curriculos">Currículos</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<div class="search-bar">
+    <input type="text" placeholder="Pesquisar...">
+    <button>Pesquisar</button>
+</div>
+
+<section id="empresas">
+    <h2>Empresas</h2>
+    <p>As empresas são organizações que fornecem bens ou serviços. Aqui estão algumas dicas sobre como escolher uma empresa para trabalhar:</p>
+    
+    <div class="card">
+        <h3><img class="icon" src="icone-pesquisa.png" alt="Ícone de Pesquisa"> Pesquise a Cultura da Empresa</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTba4vCX0r3Ri9NAicvvlYcUEd3z-HNyd4kYw&s" alt="Cultura da Empresa">
+        <p>Entender a cultura organizacional é fundamental para saber se você se encaixa.</p>
+    </div>
+    
+    <div class="card">
+        <h3><img class="icon" src="icone-avaliacoes.png" alt="Ícone de Avaliações"> Avaliações de Funcionários</h3>
+        <img src="sua-imagem-aqui-2.jpg" alt="Avaliações">
+        <p>Verifique sites de avaliação para ter uma visão clara sobre a empresa.</p>
+    </div>
+</section>
+
+<section id="curriculos">
+    <h2>Dicas para Melhorar seu Currículo</h2>
+    <p>Um currículo bem elaborado pode fazer a diferença na sua busca por emprego. Aqui estão algumas dicas:</p>
+    
+    <ul>
+        <li><img class="icon" src="icone-dica.png" alt="Dica"> Mantenha o design limpo e profissional.</li>
+        <li><img class="icon" src="icone-dica.png" alt="Dica"> Personalize seu currículo para cada vaga.</li>
+        <li><img class="icon" src="icone-dica.png" alt="Dica"> Inclua conquistas mensuráveis em vez de apenas responsabilidades.</li>
+    </ul>
+    
+    <div class="card">
+        <h3><img class="icon" src="icone-modelo.png" alt="Modelo"> Modelos de Currículo</h3>
+        <p>Use modelos que sejam visualmente atraentes e fáceis de ler.</p>
+    </div>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <p>Se você tiver dúvidas ou quiser mais informações, preencha o formulário abaixo:</p>
+    
+    <div class="contacts">
+        <form class="contact-form">
+            <input type="text" placeholder="Seu Nome" required>
+            <input type="email" placeholder="Seu Email" required>
+            <textarea rows="4" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Informações sobre Empresas e Currículos</p>
+</footer>
+
+</body>
+</html>
